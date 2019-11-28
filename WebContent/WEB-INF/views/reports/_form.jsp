@@ -18,6 +18,14 @@
 <c:out value="${sessionScope.login_employee.name}" />
 <br /><br />
 
+<label for="attendance_time">出勤時刻</label><br />
+<input type="text" name="attendance_time" value="${report.attendance_time}" />
+<br /><br />
+
+<label for="work_time">退勤時刻</label><br />
+<input type="text" name="work_time" value="${report.work_time}" />
+<br /><br />
+
 <label for="title">タイトル</label><br />
 <input type="text" name="title" value="${report.title}" />
 <br /><br />
